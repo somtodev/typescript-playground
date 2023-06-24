@@ -27,6 +27,12 @@ Transpiles your typescript code to vanilla javascript
 
 - **NoImplicitAny**: These would throw a compilation error when an implicitly declared variables is come acrossed.
 
+- **NoImplicitReturns**: This would flag a compilation error when an implicit return is a possible outcome from a method.
+
+- **NoUnusedLocals**: This enabled would throw a compilation error when you have an unused local variable.
+
+- **NoUnusedParameters**: When enabled, this acts as a garbage collector and flags a compilation error when you have an unused parameter in a method.
+
 
 ## TS Debugging
 
@@ -41,7 +47,17 @@ Typescript comes with several types like:
 >* Tuple
 
 
+## Advanced Types
+
+- Types Alias
+- Union Type
+- Intersection Type
+
+
 >* Any: If a variable is declared and not initialized that variable is given the type of any, meaning it can contain any type of variable which is against the concept of ts.
 
 
+> **DRY**: Don't Repeat Yourself
 
+
+> ***Reference***: [Mosh](https://www.youtube.com/@programmingwithmosh)
